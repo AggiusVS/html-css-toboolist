@@ -4,16 +4,87 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
     list-style-type: none;
 }
 
+
 /* LAYOUT */
 
 .container {
-    max-width: 1440px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* UTILS */
+
+.background-blue {
+    background-color: #09A9ED;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.font-big {
+    font-size: 25px;
+}
+
+.font-small {
+    font-size: 15px;
+}
+
+li {
+    color: rgb(85, 84, 84);
+}
+
+/* PAGE HEADER */
+
+.page-header {
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.page-header .logo {
+    height: 50px;
+}
+
+/* CONTENT HEADER */
+
+.page-main {
+    padding: 50px 0;
+
+}
+
+.todo-list {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.button-container {
+    padding: 10px 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.buttons {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+
+}
+
+/* CONTENT MAIN */
+
+.todo-container {
+    padding: 5px 50px;
 }
