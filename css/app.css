@@ -15,7 +15,7 @@ ul {
 /* LAYOUT */
 
 .container {
-    max-width: 1300px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -24,7 +24,7 @@ body {
     background-color: #F6F8F9;
 }
 
-/* UTILS */
+/* BACKGROUNDS */
 
 .background-blue {
     background-color: #09A9ED;
@@ -34,17 +34,54 @@ body {
     background-color: white;
 }
 
+.background-purple {
+    background-color: #AB5DE6;
+}
+
+.background-aquaM {
+    background-color: #2CC6AB;
+}
+
+.background-orange {
+    background-color: #FF9B00;
+}
+
+.background-magenta {
+    background-color: #EC4A9D;
+}
+
+.background-greenish {
+    background-color: #A3D116;
+}
+
+
+/* UTILS */
+
+
 .font-big {
     font-size: 25px;
 }
 
 .font-small {
     font-size: 15px;
+
 }
 
 li {
     color: rgb(85, 84, 84);
 }
+
+.radius {
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 10px;
+    padding: 5px 8px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+
+
 
 /* PAGE HEADER */
 
@@ -73,6 +110,7 @@ li {
 .button-container {
     padding: 10px 50px;
     border-bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
 }
 
 .buttons {
@@ -87,4 +125,36 @@ li {
 
 .todo-container {
     padding: 5px 50px;
+}
+
+li.font-small {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.check {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    color: green;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.cross {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    color: red;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
 }
